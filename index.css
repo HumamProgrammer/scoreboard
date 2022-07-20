@@ -1,0 +1,61 @@
+body {
+    margin: 0;
+    background: #7251b5;
+    color: #fbfaff;
+    
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+    font-family: 'Bebas Neue', cursive;
+    height: 50px;
+    
+}
+#home {
+    font-size: 25px;
+    text-shadow: 0px 0px 10px #f78ecf;
+
+}
+#guest {
+    font-size: 25px;
+    text-shadow: 0px 0px 10px #f78ecf;
+
+}
+#flex1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    text-align: center;
+    
+    
+}
+#flex2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    text-align: center;
+
+}
+
+
+
+
+
+
+
+#number1, #number2 {
+    background: black;
+    font-family: 'Stardos Stencil', cursive;
+    color: red;
+    line-height: 70px;
+
+}
+#increment1, #increment2, #reset1, #reset2 {
+    margin-top: 10px;
+    background: #8013bd;
+    border: 1px solid #d4bbfc;
+    border-radius: 10px;
+    color: #ffb2e6;
+    padding: 5px 10px;
+}
